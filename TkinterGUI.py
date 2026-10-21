@@ -39,4 +39,4 @@ label_hasil = ttk.Label(
      main, text="-", font=("Segoe UI", 14, "bold"),
     foreground="#1a5fb4", anchor="center",
 )
-)
+label_hasil.grid(row=7, column=0, columnspan=4, pady=(5, 0))
