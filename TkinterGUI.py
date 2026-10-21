@@ -26,3 +26,6 @@ entries = []
 for i, nama in enumerate(MAPEL):
     baris = i % 5 + 1
     kolom = (i // 5) * 2
+    ttk.Label(main, text=nama + ":").grid(
+        row=baris, column=kolom, sticky="e", padx=(10, 5), pady=5)
+    entry = ttk.Entry(main, width=10, justify="center")
