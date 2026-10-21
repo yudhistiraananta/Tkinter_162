@@ -9,3 +9,7 @@ MAPEL = [
 def hasil_prediksi():
     # Apapun input yang diberikan, hasilnya selalu Teknologi Informasi
     label_hasil.config(text="Teknologi Informasi")
+
+root = tk.Tk()
+root.title("Aplikasi Prediksi Prodi Pilihan")
+root.resizable(False, False)
