@@ -44,3 +44,5 @@ label_hasil.grid(row=7, column=0, columnspan=4, pady=(5, 0))
 root.update_idletasks()
 w, h = root.winfo_width(), root.winfo_height()
 x = (root.winfo_screenwidth() - w) // 2
+y = (root.winfo_screenheight() - h) // 2
+root.geometry(f"+{x}+{y}")
