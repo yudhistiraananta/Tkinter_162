@@ -31,3 +31,6 @@ for i, nama in enumerate(MAPEL):
     entry = ttk.Entry(main, width=10, justify="center")
     entry.grid(row=baris, column=kolom + 1, sticky="w", padx=(0, 15), pady=5)
     entries.append(entry)
+
+ttk.Button(main, text="Hasil Prediksi", command=hasil_prediksi).grid(
+    row=6, column=0, columnspan=4, pady=(20, 10), ipadx=15, ipady=4)
