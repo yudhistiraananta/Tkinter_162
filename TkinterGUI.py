@@ -29,3 +29,5 @@ for i, nama in enumerate(MAPEL):
     ttk.Label(main, text=nama + ":").grid(
         row=baris, column=kolom, sticky="e", padx=(10, 5), pady=5)
     entry = ttk.Entry(main, width=10, justify="center")
+    entry.grid(row=baris, column=kolom + 1, sticky="w", padx=(0, 15), pady=5)
+    entries.append(entry)
