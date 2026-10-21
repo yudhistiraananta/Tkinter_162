@@ -35,4 +35,8 @@ for i, nama in enumerate(MAPEL):
 ttk.Button(main, text="Hasil Prediksi", command=hasil_prediksi).grid(
     row=6, column=0, columnspan=4, pady=(20, 10), ipadx=15, ipady=4)
 
-label_hasil = ttk.Label
+label_hasil = ttk.Label(
+     main, text="-", font=("Segoe UI", 14, "bold"),
+    foreground="#1a5fb4", anchor="center",
+)
+)
