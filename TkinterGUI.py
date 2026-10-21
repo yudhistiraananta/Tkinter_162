@@ -16,3 +16,8 @@ root.resizable(False, False)
 
 main = ttk.Frame(root, padding=20)
 main.grid(row=0, column=0)
+
+ttk.Label(
+    main, text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Segoe UI", 16, "bold"), anchor="center",
+).grid(row=0, column=0, columnspan=4, pady=(0, 15))
