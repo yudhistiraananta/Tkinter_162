@@ -21,3 +21,8 @@ ttk.Label(
     main, text="Aplikasi Prediksi Prodi Pilihan",
     font=("Segoe UI", 16, "bold"), anchor="center",
 ).grid(row=0, column=0, columnspan=4, pady=(0, 15))
+
+entries = []
+for i, nama in enumerate(MAPEL):
+    baris = i % 5 + 1
+    kolom = (i // 5) * 2
