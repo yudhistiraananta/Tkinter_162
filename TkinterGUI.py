@@ -13,3 +13,6 @@ def hasil_prediksi():
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
 root.resizable(False, False)
+
+main = ttk.Frame(root, padding=20)
+main.grid(row=0, column=0)
